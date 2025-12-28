@@ -1,0 +1,16 @@
+name: Feedback / Improvement
+description: Share general feedback, suggestions, or improvements
+title: "feedback: "
+labels: ["feedback"]
+body:
+  - type: textarea
+    attributes:
+      label: Feedback
+      description: Describe your feedback, suggestions, or improvements
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional Context
+      description: Add any additional context or examples

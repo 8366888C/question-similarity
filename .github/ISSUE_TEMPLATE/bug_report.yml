@@ -1,0 +1,34 @@
+name: Bug Report
+description: Report a bug in the application
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: Describe the bug you encountered
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: List the steps to reproduce the bug
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: Describe what you expected to happen
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Screenshots / Logs
+      description: Add screenshots or logs if applicable
