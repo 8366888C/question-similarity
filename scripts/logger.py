@@ -4,7 +4,7 @@ from pathlib import Path
 
 def setup_logger(name, log_file):
     # creating logs folder
-    base_dir = Path(__file__).resolve().parent
+    base_dir = Path(__file__).resolve().parents[1]
     logs_dir = base_dir / "logs"
     logs_dir.mkdir(exist_ok=True)
 

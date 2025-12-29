@@ -1,0 +1,13 @@
+2025-12-29 22:19:14,037 - __main__ - INFO - Created directory: data
+2025-12-29 22:19:14,038 - __main__ - INFO - Kaggle API authenticated
+2025-12-29 22:19:14,038 - __main__ - INFO - Downloading data to data ...
+2025-12-29 22:19:50,003 - __main__ - INFO - Download complete
+2025-12-29 22:19:50,004 - __main__ - INFO - Unzipping files ...
+2025-12-29 22:19:52,344 - __main__ - INFO - Extracted: quora-question-pairs.zip
+2025-12-29 22:19:52,359 - __main__ - INFO - Renamed initial test.csv to final.csv
+2025-12-29 22:19:52,359 - __main__ - INFO - Extracting the datasets ...
+2025-12-29 22:19:54,751 - __main__ - INFO - Extracted: quora-question-pairs.zip
+2025-12-29 22:19:54,824 - __main__ - INFO - Extracted: sample_submission.csv.zip
+2025-12-29 22:19:57,569 - __main__ - INFO - Extracted: test.csv.zip
+2025-12-29 22:19:57,916 - __main__ - INFO - Extracted: train.csv.zip
+2025-12-29 22:19:57,916 - __main__ - INFO - get_data() process completed successfully
