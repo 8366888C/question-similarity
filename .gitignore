@@ -1,5 +1,8 @@
-# Dependencies
+# dependencies
 /node_modules
 
-# Environments
+# environments
 .venv
+
+# environment variables
+.env
