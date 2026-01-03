@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 
-# load environment variable
+# load environment variables
 load_dotenv()
 
 import os
@@ -13,64 +13,82 @@ import zipfile
 log = setup_logger(__name__, "get_data.log")
 
 
-def get_data():
+class GetData:
+    def __init__(self):
+        self.base_dir = Path(__file__).resolve().parents[1]
+        self.data_dir = self.base_dir / "data"
+        self.api = None
+
     # creating data folder
-    base_dir = Path(__file__).resolve().parents[1]
-    data_dir = base_dir / "data"
-    data_dir.mkdir(exist_ok=True)
-    log.info(f"Created directory: {data_dir.name}")
+    def create_folder(self):
+        self.data_dir.mkdir(exist_ok=True)
+        log.info(f"Created directory: {self.data_dir.name}")
 
     # kaggle api initialization
-    kaggle_username = os.environ.get("KAGGLE_USERNAME")
-    kaggle_key = os.environ.get("KAGGLE_KEY")
-    if not kaggle_username or not kaggle_key:
-        log.error("KAGGLE_USERNAME or KAGGLE_KEY not found in .env")
-    api = KaggleApi()
-    api.authenticate()
-    log.info("Kaggle API authenticated")
+    def kaggle_api(self):
+        kaggle_username = os.environ.get("KAGGLE_USERNAME")
+        kaggle_key = os.environ.get("KAGGLE_KEY")
+        if not kaggle_username or not kaggle_key:
+            log.error("KAGGLE_USERNAME or KAGGLE_KEY not found in .env")
+        self.api = KaggleApi()
+        self.api.authenticate()
+        log.info("Kaggle API authenticated")
 
     # downloading zip files
-    log.info(f"Downloading data to {data_dir.name} ...")
-    try:
-        api.competition_download_files(
-            "quora-question-pairs", path=data_dir, quiet=False
-        )
-        log.info("Download complete")
-    except Exception as e:
-        log.error(f"Failed to download data: {e}")
+    def download_zip(self):
+        log.info(f"Downloading data to {self.data_dir.name} ...")
+        try:
+            self.api.competition_download_files(
+                "quora-question-pairs", path=self.data_dir, quiet=False
+            )
+            log.info("Download complete")
+        except Exception as e:
+            log.error(f"Failed to download data: {e}")
         return
 
     # extracting zip files
-    log.info("Unzipping files ...")
-    for item in data_dir.iterdir():
-        if item.suffix == ".zip":
-            file_path = data_dir / item
-            try:
-                with zipfile.ZipFile(file_path, "r") as zip:
-                    zip.extractall(data_dir)
+    def extract_zip(self):
+        log.info("Unzipping files ...")
+        for item in self.data_dir.iterdir():
+            if item.suffix == ".zip":
+                file_path = self.data_dir / item
+        try:
+            with zipfile.ZipFile(file_path, "r") as zip:
+                zip.extractall(self.data_dir)
                 log.info(f"Extracted: {item.name}")
-            except zipfile.BadZipFile:
-                log.error(f"Bad zip file: {item.name}")
+        except zipfile.BadZipFile:
+            log.error(f"Bad zip file: {item.name}")
 
     # handling final test dataset
-    test_final = data_dir / "test.csv"
-    if test_final.exists():
-        test_final.rename(data_dir / "final.csv")
+    def rename_final(self):
+        test_final = self.data_dir / "test.csv"
+        if test_final.exists():
+            test_final.rename(self.data_dir / "final.csv")
         log.info("Renamed initial test.csv to final.csv")
 
     # extracting training and testing datasets
-    log.info("Extracting the datasets ...")
-    for item in data_dir.iterdir():
-        if item.suffix == ".zip":
-            try:
-                with zipfile.ZipFile(item, "r") as zip:
-                    zip.extractall(data_dir)
-                log.info(f"Extracted: {item.name}")
-            except zipfile.BadZipFile:
-                log.error(f"Bad zip file: {item.name}")
-
-    log.info("get_data() process completed successfully")
+    def extract_data(self):
+        log.info("Extracting the datasets ...")
+        for item in self.data_dir.iterdir():
+            if item.suffix == ".zip":
+                try:
+                    with zipfile.ZipFile(item, "r") as zip:
+                        zip.extractall(self.data_dir)
+                    log.info(f"Extracted: {item.name}")
+                except zipfile.BadZipFile:
+                    log.error(f"Bad zip file: {item.name}")
 
 
 if __name__ == "__main__":
-    get_data()
+    downloader = GetData()
+
+    # download process
+    downloader.kaggle_api()
+    downloader.create_folder()
+    downloader.download_zip()
+    downloader.extract_zip()
+    downloader.rename_final()
+    downloader.extract_data()
+
+    # download completed
+    log.info("get_data() process completed successfully")
