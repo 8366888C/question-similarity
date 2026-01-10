@@ -2,7 +2,7 @@ from logger import setup_logger
 from pathlib import Path
 import pandas as pd
 from bs4 import BeautifulSoup
-from utils.contractions import contractions
+from utils.loader import load_contractions
 import re
 import inflect
 import numpy as np
@@ -20,13 +20,14 @@ class DataPreprocessor:
         self.train_path = self.data_dir / "train.csv"
         self.data_path = self.data_dir / "data.csv"
         self.df = None
+        self.contractions = load_contractions()
 
     def preprocess(self, text):
         text = text.lower()
         # remove html tags
         text = BeautifulSoup(str(text), "html.parser").get_text()
         # expand contractions
-        for contraction, expansion in contractions.items():
+        for contraction, expansion in self.contractions.items():
             text = text.replace(contraction, expansion)
         # numeric to text
         text = re.sub(r"(\d+)", lambda x: p.number_to_words(x.group(0)), text)
