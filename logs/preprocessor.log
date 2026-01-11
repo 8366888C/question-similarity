@@ -1,0 +1,55 @@
+2026-01-03 21:11:56,849 - __main__ - ERROR - Failed to load data: [Errno 2] No such file or directory: '../data/train.csv'
+2026-01-03 21:13:32,216 - __main__ - ERROR - Failed to load data: [Errno 2] No such file or directory: '../data/train.csv'
+2026-01-03 21:29:32,326 - __main__ - ERROR - Failed to load data: [Errno 2] No such file or directory: '../data/train.csv'
+2026-01-03 21:59:14,581 - __main__ - INFO - Training data Loaded from train.csv
+2026-01-03 21:59:14,657 - __main__ - INFO - Removed null values
+2026-01-03 21:59:14,657 - __main__ - INFO - Data cleaning in process ...
+2026-01-03 22:00:30,837 - __main__ - INFO - Data cleaning successful
+2026-01-03 22:00:31,256 - __main__ - INFO - Added feature q1_len
+2026-01-03 22:00:31,663 - __main__ - INFO - Added feature q2_len
+2026-01-03 22:00:37,758 - __main__ - INFO - Added feature common_words
+2026-01-03 22:00:44,154 - __main__ - INFO - Added feature unique_words
+2026-01-03 22:00:44,159 - __main__ - INFO - Added feature word_share
+2026-01-03 22:00:44,573 - __main__ - INFO - Added feature q1_freq
+2026-01-03 22:00:44,586 - __main__ - INFO - Added feature q2_freq
+2026-01-03 22:00:44,589 - __main__ - INFO - Added feature freq_sum
+2026-01-03 22:00:44,593 - __main__ - INFO - Added feature freq_diff
+2026-01-03 22:00:44,608 - __main__ - INFO - Removing outliers from q1_len
+2026-01-03 22:00:44,618 - __main__ - INFO - Removing outliers from q2_len
+2026-01-03 22:00:44,628 - __main__ - INFO - Removing outliers from unique_words
+2026-01-03 22:00:44,640 - __main__ - INFO - Removing outliers from word_share
+2026-01-03 22:00:44,646 - __main__ - INFO - Performing logarithmic transform on q1_freq
+2026-01-03 22:00:44,652 - __main__ - INFO - Performing logarithmic transform on q2_freq
+2026-01-03 22:00:44,658 - __main__ - INFO - Performing logarithmic transform on freq_sum
+2026-01-03 22:00:44,665 - __main__ - INFO - Performing logarithmic transform on freq_diff
+2026-01-03 22:00:49,354 - __main__ - INFO - Preprocessed data saved to data.csv
+2026-01-03 22:00:49,354 - __main__ - INFO - Preprocessing pipeline completed successfully
+2026-01-10 14:13:00,566 - __main__ - INFO - Training data Loaded from train.csv
+2026-01-10 14:13:00,609 - __main__ - INFO - Removed null values
+2026-01-10 14:13:00,610 - __main__ - INFO - Data cleaning in process ...
+2026-01-10 14:13:35,141 - __main__ - INFO - Data cleaning successful
+2026-01-10 14:13:35,368 - __main__ - INFO - Added feature q1_len
+2026-01-10 14:13:35,599 - __main__ - INFO - Added feature q2_len
+2026-01-10 14:13:38,036 - __main__ - INFO - Added feature common_words
+2026-01-10 14:13:40,807 - __main__ - INFO - Added feature unique_words
+2026-01-10 14:13:40,810 - __main__ - INFO - Added feature word_share
+2026-01-10 14:13:41,020 - __main__ - INFO - Added feature q1_freq
+2026-01-10 14:13:41,027 - __main__ - INFO - Added feature q2_freq
+2026-01-10 14:13:41,028 - __main__ - INFO - Added feature freq_sum
+2026-01-10 14:13:41,029 - __main__ - INFO - Added feature freq_diff
+2026-01-10 14:13:41,043 - __main__ - INFO - Removing outliers from q1_len
+2026-01-10 14:13:41,049 - __main__ - INFO - Removing outliers from q2_len
+2026-01-10 14:13:41,056 - __main__ - INFO - Removing outliers from unique_words
+2026-01-10 14:13:41,065 - __main__ - INFO - Removing outliers from word_share
+2026-01-10 14:13:41,068 - __main__ - INFO - Performing logarithmic transform on q1_freq
+2026-01-10 14:13:41,071 - __main__ - INFO - Performing logarithmic transform on q2_freq
+2026-01-10 14:13:41,074 - __main__ - INFO - Performing logarithmic transform on freq_sum
+2026-01-10 14:13:41,079 - __main__ - INFO - Performing logarithmic transform on freq_diff
+2026-01-10 14:13:43,219 - __main__ - INFO - Preprocessed data saved to data.csv 
+2026-01-10 14:13:43,220 - __main__ - INFO - Preprocessing pipeline completed successfully
+2026-01-11 17:44:43,479 - __main__ - INFO - Training data Loaded from train.csv
+2026-01-11 17:44:43,523 - __main__ - INFO - Removed null values
+2026-01-11 17:44:43,523 - __main__ - INFO - Data cleaning in process ...
+2026-01-11 17:45:06,438 - __main__ - INFO - Data cleaning successful
+2026-01-11 17:45:07,261 - __main__ - INFO - Processed data saved to data.csv
+2026-01-11 17:45:07,261 - __main__ - INFO - processing pipeline completed successfully
