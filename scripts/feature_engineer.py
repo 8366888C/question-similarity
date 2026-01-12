@@ -59,7 +59,7 @@ class FeatureEngineering:
         self.df["first_word"] = self.df.apply(
             lambda x: (
                 1
-                if str(x["question1"]).split()[:1] == str(x["question2"]).split()[-1:]
+                if str(x["question1"]).split()[:1] == str(x["question2"]).split()[:1]
                 else 0
             ),
             axis=1,
@@ -69,7 +69,7 @@ class FeatureEngineering:
         self.df["last_word"] = self.df.apply(
             lambda x: (
                 1
-                if str(x["question1"]).split()[:1] == str(x["question2"]).split()[-1:]
+                if str(x["question1"]).split()[-1:] == str(x["question2"]).split()[-1:]
                 else 0
             ),
             axis=1,
