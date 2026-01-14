@@ -34,3 +34,57 @@
 2026-01-12 20:49:55,301 - __main__ - INFO - Removed features: q1_len, q2_len, common_words, unique_words, q1_freq, q2_freq
 2026-01-12 20:49:58,690 - __main__ - INFO - Engineered data saved to data.csv
 2026-01-12 20:49:58,690 - __main__ - INFO - feature engineering pipeline completed succesfully
+2026-01-13 12:08:46,267 - __main__ - INFO - Cleaned data loaded from data.csv
+2026-01-13 12:08:46,485 - __main__ - INFO - Added feature q1_len
+2026-01-13 12:08:46,701 - __main__ - INFO - Added feature q2_len
+2026-01-13 12:08:49,164 - __main__ - INFO - Added feature common_words
+2026-01-13 12:08:52,080 - __main__ - INFO - Added feature unique_words
+2026-01-13 12:08:52,082 - __main__ - INFO - Added feature word_share
+2026-01-13 12:08:55,718 - __main__ - INFO - Added feature q1_freq
+2026-01-13 12:08:55,725 - __main__ - INFO - Added feature q2_freq
+2026-01-13 12:08:55,739 - __main__ - INFO - Removed outliers from q1_len
+2026-01-13 12:08:55,746 - __main__ - INFO - Removed outliers from q2_len
+2026-01-13 12:08:55,750 - __main__ - INFO - Performed logarithmic transform on q1_freq
+2026-01-13 12:08:55,753 - __main__ - INFO - Performed logarithmic transform on q2_freq
+2026-01-13 12:08:55,756 - __main__ - INFO - Added feature len_diff
+2026-01-13 12:08:55,758 - __main__ - INFO - Added feature freq_sum
+2026-01-13 12:08:55,761 - __main__ - INFO - Added feature freq_diff
+2026-01-13 12:08:55,788 - __main__ - INFO - Removed features: q1_len, q2_len, common_words, unique_words, q1_freq, q2_freq
+2026-01-13 12:08:57,235 - __main__ - INFO - Engineered data saved to data.csv
+2026-01-13 12:08:57,235 - __main__ - INFO - feature engineering pipeline completed succesfully
+2026-01-13 17:03:51,746 - __main__ - INFO - Cleaned data loaded from data.csv
+2026-01-13 17:03:51,973 - __main__ - INFO - Added feature q1_len
+2026-01-13 17:03:52,205 - __main__ - INFO - Added feature q2_len
+2026-01-13 17:03:54,992 - __main__ - INFO - Added feature common_words
+2026-01-13 17:03:57,981 - __main__ - INFO - Added feature unique_words
+2026-01-13 17:03:57,984 - __main__ - INFO - Added feature word_share
+2026-01-13 17:04:02,209 - __main__ - INFO - Added feature q1_freq
+2026-01-13 17:04:02,218 - __main__ - INFO - Added feature q2_freq
+2026-01-13 17:04:02,230 - __main__ - INFO - Removed outliers from q1_len
+2026-01-13 17:04:02,237 - __main__ - INFO - Removed outliers from q2_len
+2026-01-13 17:04:02,240 - __main__ - INFO - Performed logarithmic transform on q1_freq
+2026-01-13 17:04:02,245 - __main__ - INFO - Performed logarithmic transform on q2_freq
+2026-01-13 17:04:02,248 - __main__ - INFO - Added feature len_diff
+2026-01-13 17:04:02,250 - __main__ - INFO - Added feature freq_sum
+2026-01-13 17:04:02,252 - __main__ - INFO - Added feature freq_diff
+2026-01-13 17:04:02,280 - __main__ - INFO - Removed features: q1_len, q2_len, common_words, unique_words, q1_freq, q2_freq
+2026-01-13 17:04:03,847 - __main__ - INFO - Engineered data saved to data.csv
+2026-01-13 17:04:03,848 - __main__ - INFO - feature engineering pipeline completed succesfully
+2026-01-13 18:43:24,383 - __main__ - INFO - Cleaned data loaded from data.csv
+2026-01-13 18:43:24,638 - __main__ - INFO - Added feature q1_len
+2026-01-13 18:43:24,897 - __main__ - INFO - Added feature q2_len
+2026-01-13 18:43:27,717 - __main__ - INFO - Added feature common_words
+2026-01-13 18:43:30,636 - __main__ - INFO - Added feature unique_words
+2026-01-13 18:43:30,641 - __main__ - INFO - Added feature word_share
+2026-01-13 18:43:34,761 - __main__ - INFO - Added feature q1_freq
+2026-01-13 18:43:34,772 - __main__ - INFO - Added feature q2_freq
+2026-01-13 18:43:34,787 - __main__ - INFO - Removed outliers from q1_len
+2026-01-13 18:43:34,795 - __main__ - INFO - Removed outliers from q2_len
+2026-01-13 18:43:34,799 - __main__ - INFO - Performed logarithmic transform on q1_freq
+2026-01-13 18:43:34,803 - __main__ - INFO - Performed logarithmic transform on q2_freq
+2026-01-13 18:43:34,807 - __main__ - INFO - Added feature len_diff
+2026-01-13 18:43:34,809 - __main__ - INFO - Added feature freq_sum
+2026-01-13 18:43:34,811 - __main__ - INFO - Added feature freq_diff
+2026-01-13 18:43:34,839 - __main__ - INFO - Removed features: q1_len, q2_len, common_words, unique_words, q1_freq, q2_freq
+2026-01-13 18:43:36,445 - __main__ - INFO - Engineered data saved to data.csv
+2026-01-13 18:43:36,446 - __main__ - INFO - feature engineering pipeline completed succesfully

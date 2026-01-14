@@ -53,3 +53,21 @@
 2026-01-11 17:45:06,438 - __main__ - INFO - Data cleaning successful
 2026-01-11 17:45:07,261 - __main__ - INFO - Processed data saved to data.csv
 2026-01-11 17:45:07,261 - __main__ - INFO - processing pipeline completed successfully
+2026-01-13 12:08:05,835 - __main__ - INFO - Training data Loaded from train.csv
+2026-01-13 12:08:05,880 - __main__ - INFO - Removed null values
+2026-01-13 12:08:05,880 - __main__ - INFO - Data cleaning in process ...
+2026-01-13 12:08:29,023 - __main__ - INFO - Data cleaning successful
+2026-01-13 12:08:29,820 - __main__ - INFO - Processed data saved to data.csv
+2026-01-13 12:08:29,820 - __main__ - INFO - processing pipeline completed successfully
+2026-01-13 17:03:15,011 - __main__ - INFO - Training data Loaded from train.csv
+2026-01-13 17:03:15,061 - __main__ - INFO - Removed null values
+2026-01-13 17:03:15,062 - __main__ - INFO - Data cleaning in process ...
+2026-01-13 17:03:39,958 - __main__ - INFO - Data cleaning successful
+2026-01-13 17:03:40,824 - __main__ - INFO - Processed data saved to data.csv
+2026-01-13 17:03:40,825 - __main__ - INFO - processing pipeline completed successfully
+2026-01-13 18:42:51,831 - __main__ - INFO - Training data Loaded from train.csv
+2026-01-13 18:42:51,881 - __main__ - INFO - Removed null values
+2026-01-13 18:42:51,882 - __main__ - INFO - Data cleaning in process ...
+2026-01-13 18:43:17,486 - __main__ - INFO - Data cleaning successful
+2026-01-13 18:43:18,366 - __main__ - INFO - Processed data saved to data.csv
+2026-01-13 18:43:18,367 - __main__ - INFO - processing pipeline completed successfully

@@ -47,14 +47,12 @@ class GenerateEmbeddings:
                 .tolist()
             )
             log.info("All unique questions collected")
-
             # generating embeddings
+            log.info("Encoding unique questions ...")
             device = "cuda" if torch.cuda.is_available() else "cpu"
             raw_vecs = self.model.encode(
-                questions, device=device, show_progress_bar=True
+                questions, device=device, show_progress_bar=True, batch_size=32
             )
-            log.info("Encoding unique questions ...")
-
             # creating cache
             self.embeddings = dict(zip(questions, raw_vecs))
             log.info(f"Encoded {len(questions)} unique questions on {device}")
@@ -65,16 +63,17 @@ class GenerateEmbeddings:
             log.info(f"Embeddings cache saved in {self.embeddings_path.name}")
 
     def similarity_scores(self):
+        # question 1 embeddings
         q1_embeddings = torch.from_numpy(
             np.stack(self.df["question1"].map(self.embeddings).values)
         )
         log.info("Mapping question 1 embeddings")
-
+        # question 2 embeddings
         q2_embeddings = torch.from_numpy(
             np.stack(self.df["question2"].map(self.embeddings).values)
         )
         log.info("Mapping question 2 embeddings")
-
+        # generating similarity scores
         similarity_scores = self.model.similarity_pairwise(q1_embeddings, q2_embeddings)
         self.df["sim_score"] = similarity_scores
         log.info("Generated similarity scores")

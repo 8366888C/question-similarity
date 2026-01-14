@@ -46,3 +46,29 @@
 2026-01-10 14:11:26,257 - __main__ - INFO - Extracted: test.csv.zip
 2026-01-10 14:11:26,523 - __main__ - INFO - Extracted: train.csv.zip
 2026-01-10 14:11:26,523 - __main__ - INFO - downloading process completed successfully
+2026-01-13 17:01:28,343 - __main__ - INFO - Kaggle API authenticated
+2026-01-13 17:01:28,344 - __main__ - INFO - Created directory: data
+2026-01-13 17:01:28,344 - __main__ - INFO - Downloading data to data ...
+2026-01-13 17:02:36,435 - __main__ - INFO - Download complete
+2026-01-13 17:02:36,435 - __main__ - INFO - Unzipping files ...
+2026-01-13 17:02:37,897 - __main__ - INFO - Extracted: quora-question-pairs.zip
+2026-01-13 17:02:37,899 - __main__ - INFO - Renamed initial test.csv to final.csv
+2026-01-13 17:02:37,899 - __main__ - INFO - Extracting the datasets ...
+2026-01-13 17:02:39,461 - __main__ - INFO - Extracted: quora-question-pairs.zip
+2026-01-13 17:02:39,526 - __main__ - INFO - Extracted: sample_submission.csv.zip
+2026-01-13 17:02:41,527 - __main__ - INFO - Extracted: test.csv.zip
+2026-01-13 17:02:41,771 - __main__ - INFO - Extracted: train.csv.zip
+2026-01-13 17:02:41,772 - __main__ - INFO - downloading process completed successfully
+2026-01-13 18:39:25,219 - __main__ - INFO - Kaggle API authenticated
+2026-01-13 18:39:25,220 - __main__ - INFO - Created directory: data
+2026-01-13 18:39:25,220 - __main__ - INFO - Downloading data to data ...
+2026-01-13 18:40:43,465 - __main__ - INFO - Download complete
+2026-01-13 18:40:43,465 - __main__ - INFO - Unzipping files ...
+2026-01-13 18:40:44,969 - __main__ - INFO - Extracted: quora-question-pairs.zip
+2026-01-13 18:40:44,970 - __main__ - INFO - Renamed initial test.csv to final.csv
+2026-01-13 18:40:44,970 - __main__ - INFO - Extracting the datasets ...
+2026-01-13 18:40:46,529 - __main__ - INFO - Extracted: quora-question-pairs.zip
+2026-01-13 18:40:46,589 - __main__ - INFO - Extracted: sample_submission.csv.zip
+2026-01-13 18:40:48,603 - __main__ - INFO - Extracted: test.csv.zip
+2026-01-13 18:40:48,861 - __main__ - INFO - Extracted: train.csv.zip
+2026-01-13 18:40:48,862 - __main__ - INFO - downloading process completed successfully

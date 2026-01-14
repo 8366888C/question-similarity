@@ -48,6 +48,8 @@ class Preprocessor:
         log.info("Data cleaning in process ...")
         self.df["question1"] = self.df["question1"].apply(self.clean)
         self.df["question2"] = self.df["question2"].apply(self.clean)
+        # remove rows that became empty after cleaning
+        self.df = self.df[(self.df["question1"] != "") & (self.df["question2"] != "")]
         log.info("Data cleaning successful")
 
     def save_data(self):
