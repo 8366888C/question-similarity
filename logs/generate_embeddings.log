@@ -30,3 +30,15 @@
 2026-01-13 19:23:38,950 - __main__ - INFO - Generated similarity scores
 2026-01-13 19:23:40,957 - __main__ - INFO - Similarity scores saved to data.csv
 2026-01-13 19:23:40,957 - __main__ - INFO - generate embeddings pipeline completed succesfully
+2026-01-16 13:03:08,876 - __main__ - ERROR - Embeddings not found
+2026-01-16 13:03:10,139 - __main__ - INFO - Engineered data loaded from data.csv
+2026-01-16 13:03:21,462 - __main__ - INFO - Model initialized
+2026-01-16 13:03:21,718 - __main__ - INFO - All unique questions collected
+2026-01-16 13:03:21,718 - __main__ - INFO - Encoding unique questions ...
+2026-01-16 13:06:33,096 - __main__ - INFO - Encoded 533360 unique questions on cuda
+2026-01-16 13:07:11,489 - __main__ - INFO - Embeddings cache saved in embeddings.pkl
+2026-01-16 13:07:12,466 - __main__ - INFO - Mapping question 1 embeddings
+2026-01-16 13:07:13,670 - __main__ - INFO - Mapping question 2 embeddings
+2026-01-16 13:07:13,955 - __main__ - INFO - Generated similarity scores
+2026-01-16 13:07:17,809 - __main__ - INFO - Similarity scores saved to data.csv
+2026-01-16 13:07:17,809 - __main__ - INFO - generate embeddings pipeline completed succesfully

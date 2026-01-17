@@ -71,3 +71,9 @@
 2026-01-13 18:43:17,486 - __main__ - INFO - Data cleaning successful
 2026-01-13 18:43:18,366 - __main__ - INFO - Processed data saved to data.csv
 2026-01-13 18:43:18,367 - __main__ - INFO - processing pipeline completed successfully
+2026-01-16 13:00:42,254 - __main__ - INFO - Training data Loaded from train.csv
+2026-01-16 13:00:42,331 - __main__ - INFO - Removed null values
+2026-01-16 13:00:42,331 - __main__ - INFO - Data cleaning in process ...
+2026-01-16 13:01:32,531 - __main__ - INFO - Data cleaning successful
+2026-01-16 13:01:34,276 - __main__ - INFO - Processed data saved to data.csv
+2026-01-16 13:01:34,277 - __main__ - INFO - processing pipeline completed successfully
