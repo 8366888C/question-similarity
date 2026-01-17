@@ -15,6 +15,7 @@ class GenerateEmbeddings:
         self.base_dir = Path(__file__).resolve().parents[1]
         self.data_dir = self.base_dir / "data"
         self.data_path = self.data_dir / "data.csv"
+        self.model_path = self.base_dir / "model"
         self.embeddings_path = self.data_dir / "embeddings.pkl"
         self.df = None
         self.model = None
@@ -36,7 +37,8 @@ class GenerateEmbeddings:
         self.model = SentenceTransformer(
             "all-miniLM-L6-v2", similarity_fn_name=SimilarityFunction.DOT_PRODUCT
         )
-        log.info("Model initialized")
+        self.model.save(self.model_path)
+        log.info(f"Model initialized and saved to {self.model_path.name}")
 
     def model_encode(self):
         if self.embeddings is None:
