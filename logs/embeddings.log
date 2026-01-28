@@ -1,0 +1,108 @@
+2026-01-13 03:56:01,670 - __main__ - ERROR - Embeddings not found
+2026-01-13 03:56:03,110 - __main__ - INFO - Engineered data loaded from data.csv
+2026-01-13 03:56:10,146 - __main__ - INFO - Model initialized
+2026-01-13 03:56:10,392 - __main__ - INFO - All unique questions collected
+2026-01-13 03:59:45,325 - __main__ - INFO - Encoding unique questions ...
+2026-01-13 03:59:45,541 - __main__ - INFO - Encoded 535467 unique questions on cuda
+2026-01-13 04:00:25,537 - __main__ - INFO - Embeddings cache saved in embeddings.pkl
+2026-01-13 04:00:26,557 - __main__ - INFO - Mapping question 1 embeddings
+2026-01-13 04:00:27,803 - __main__ - INFO - Mapping question 2 embeddings
+2026-01-13 04:00:28,108 - __main__ - INFO - Generated similarity scores
+2026-01-13 04:00:31,982 - __main__ - INFO - Similarity scores saved to data.csv
+2026-01-13 04:00:31,983 - __main__ - INFO - generate embeddings pipeline completed succesfully
+2026-01-13 13:02:56,728 - __main__ - ERROR - Embeddings not found
+2026-01-13 13:02:57,593 - __main__ - INFO - Engineered data loaded from data.csv
+2026-01-13 13:03:03,886 - __main__ - INFO - Model initialized
+2026-01-13 13:03:04,079 - __main__ - INFO - All unique questions collected
+2026-01-13 17:04:18,606 - __main__ - ERROR - Embeddings not found
+2026-01-13 17:04:19,426 - __main__ - INFO - Engineered data loaded from data.csv
+2026-01-13 17:04:25,975 - __main__ - INFO - Model initialized
+2026-01-13 17:04:26,167 - __main__ - INFO - All unique questions collected
+2026-01-13 18:44:59,981 - __main__ - ERROR - Embeddings not found
+2026-01-13 18:45:00,772 - __main__ - INFO - Engineered data loaded from data.csv
+2026-01-13 18:45:08,420 - __main__ - INFO - Model initialized
+2026-01-13 18:45:08,620 - __main__ - INFO - All unique questions collected
+2026-01-13 18:45:08,620 - __main__ - INFO - Encoding unique questions ...
+2026-01-13 19:23:21,345 - __main__ - INFO - Encoded 533361 unique questions on cpu
+2026-01-13 19:23:37,094 - __main__ - INFO - Embeddings cache saved in embeddings.pkl
+2026-01-13 19:23:37,807 - __main__ - INFO - Mapping question 1 embeddings
+2026-01-13 19:23:38,642 - __main__ - INFO - Mapping question 2 embeddings
+2026-01-13 19:23:38,950 - __main__ - INFO - Generated similarity scores
+2026-01-13 19:23:40,957 - __main__ - INFO - Similarity scores saved to data.csv
+2026-01-13 19:23:40,957 - __main__ - INFO - generate embeddings pipeline completed succesfully
+2026-01-16 13:03:08,876 - __main__ - ERROR - Embeddings not found
+2026-01-16 13:03:10,139 - __main__ - INFO - Engineered data loaded from data.csv
+2026-01-16 13:03:21,462 - __main__ - INFO - Model initialized
+2026-01-16 13:03:21,718 - __main__ - INFO - All unique questions collected
+2026-01-16 13:03:21,718 - __main__ - INFO - Encoding unique questions ...
+2026-01-16 13:06:33,096 - __main__ - INFO - Encoded 533360 unique questions on cuda
+2026-01-16 13:07:11,489 - __main__ - INFO - Embeddings cache saved in embeddings.pkl
+2026-01-16 13:07:12,466 - __main__ - INFO - Mapping question 1 embeddings
+2026-01-16 13:07:13,670 - __main__ - INFO - Mapping question 2 embeddings
+2026-01-16 13:07:13,955 - __main__ - INFO - Generated similarity scores
+2026-01-16 13:07:17,809 - __main__ - INFO - Similarity scores saved to data.csv
+2026-01-16 13:07:17,809 - __main__ - INFO - generate embeddings pipeline completed succesfully
+2026-01-17 18:39:14,268 - __main__ - ERROR - Embeddings not found
+2026-01-17 18:39:15,615 - __main__ - INFO - Engineered data loaded from data.csv
+2026-01-17 18:39:22,893 - __main__ - INFO - Model initialized and saved to model
+2026-01-17 18:39:23,151 - __main__ - INFO - All unique questions collected
+2026-01-17 18:39:23,151 - __main__ - INFO - Encoding unique questions ...
+2026-01-17 18:42:46,929 - __main__ - INFO - Encoded 533360 unique questions on cuda
+2026-01-17 18:43:25,726 - __main__ - INFO - Embeddings cache saved in embeddings.pkl
+2026-01-17 18:43:26,725 - __main__ - INFO - Mapping question 1 embeddings
+2026-01-17 18:43:27,833 - __main__ - INFO - Mapping question 2 embeddings
+2026-01-17 18:43:28,128 - __main__ - INFO - Generated similarity scores
+2026-01-17 18:43:31,964 - __main__ - INFO - Similarity scores saved to data.csv
+2026-01-17 18:43:31,965 - __main__ - INFO - generate embeddings pipeline completed succesfully
+2026-01-17 19:09:08,147 - __main__ - ERROR - Embeddings not found
+2026-01-17 19:09:09,436 - __main__ - INFO - Engineered data loaded from data.csv
+2026-01-17 19:09:16,178 - __main__ - INFO - Model initialized and saved to sbert
+2026-01-17 19:09:16,426 - __main__ - INFO - All unique questions collected
+2026-01-17 19:09:16,426 - __main__ - INFO - Encoding unique questions ...
+2026-01-17 19:13:26,729 - __main__ - INFO - Encoded 533360 unique questions on cuda
+2026-01-17 19:14:09,916 - __main__ - INFO - Embeddings cache saved in embeddings.pkl
+2026-01-17 19:14:11,006 - __main__ - INFO - Mapping question 1 embeddings
+2026-01-17 19:14:12,196 - __main__ - INFO - Mapping question 2 embeddings
+2026-01-17 19:14:12,519 - __main__ - INFO - Generated similarity scores
+2026-01-17 19:14:16,445 - __main__ - INFO - Similarity scores saved to data.csv
+2026-01-17 19:14:16,445 - __main__ - INFO - generate embeddings pipeline completed succesfully
+2026-01-17 19:15:43,105 - __main__ - ERROR - Embeddings not found
+2026-01-17 19:15:44,384 - __main__ - INFO - Engineered data loaded from data.csv
+2026-01-17 19:15:51,478 - __main__ - INFO - Model initialized and saved to sbert
+2026-01-17 19:15:51,748 - __main__ - INFO - All unique questions collected
+2026-01-17 19:15:51,748 - __main__ - INFO - Encoding unique questions ...
+2026-01-17 19:22:22,536 - __main__ - ERROR - Embeddings not found
+2026-01-17 19:22:24,063 - __main__ - INFO - Engineered data loaded from data.csv
+2026-01-17 19:22:33,132 - __main__ - INFO - Model initialized and saved to sbert
+2026-01-17 19:22:33,396 - __main__ - INFO - All unique questions collected
+2026-01-17 19:22:33,396 - __main__ - INFO - Encoding unique questions ...
+2026-01-17 19:25:55,475 - __main__ - INFO - Encoded 533360 unique questions on cuda
+2026-01-17 19:26:35,542 - __main__ - INFO - Embeddings cache saved in embeddings.pkl
+2026-01-17 19:26:36,622 - __main__ - INFO - Mapping question 1 embeddings
+2026-01-17 19:26:37,857 - __main__ - INFO - Mapping question 2 embeddings
+2026-01-17 19:26:38,171 - __main__ - INFO - Generated similarity scores
+2026-01-17 19:26:42,095 - __main__ - INFO - Similarity scores saved to data.csv
+2026-01-17 19:26:42,096 - __main__ - INFO - generate embeddings pipeline completed succesfully
+2026-01-28 21:41:59,788 - embeddings - ERROR - Embeddings not found
+2026-01-28 21:47:22,817 - embeddings - ERROR - Embeddings not found
+2026-01-28 21:47:24,080 - embeddings - INFO - Engineered data loaded from data.csv
+2026-01-28 21:47:35,086 - embeddings - INFO - Model initialized and saved to sbert
+2026-01-28 21:47:35,353 - embeddings - INFO - All unique questions collected
+2026-01-28 21:47:35,353 - embeddings - INFO - Encoding unique questions ...
+2026-01-28 21:50:55,995 - embeddings - INFO - Encoded 533360 unique questions on cuda
+2026-01-28 21:51:35,375 - embeddings - INFO - Embeddings cache saved in embeddings.pkl
+2026-01-28 21:51:36,409 - embeddings - INFO - Mapping question 1 embeddings
+2026-01-28 21:51:37,522 - embeddings - INFO - Mapping question 2 embeddings
+2026-01-28 21:51:37,825 - embeddings - INFO - Generated similarity scores
+2026-01-28 21:51:41,810 - embeddings - INFO - Similarity scores saved to data.csv
+2026-01-28 22:20:51,153 - embeddings - ERROR - Embeddings not found
+2026-01-28 22:20:52,448 - embeddings - INFO - Engineered data loaded from data.csv
+2026-01-28 22:21:04,093 - embeddings - INFO - Model initialized and saved to sbert
+2026-01-28 22:21:04,347 - embeddings - INFO - All unique questions collected
+2026-01-28 22:21:04,348 - embeddings - INFO - Encoding unique questions ...
+2026-01-28 22:24:11,078 - embeddings - INFO - Encoded 533360 unique questions on cuda
+2026-01-28 22:24:50,446 - embeddings - INFO - Embeddings cache saved in embeddings.pkl
+2026-01-28 22:24:51,477 - embeddings - INFO - Mapping question 1 embeddings
+2026-01-28 22:24:52,690 - embeddings - INFO - Mapping question 2 embeddings
+2026-01-28 22:24:52,978 - embeddings - INFO - Generated similarity scores
+2026-01-28 22:24:56,924 - embeddings - INFO - Similarity scores saved to data.csv

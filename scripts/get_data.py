@@ -91,4 +91,5 @@ if __name__ == "__main__":
     downloader.extract_data()
 
     # download completed
-    log.info("downloading process completed successfully")
+    log.info("DOWNLOADING PROCESS COMPLETED SUCCESSFULLY")
+    log.info("")

@@ -12,3 +12,8 @@ __pycache__
 
 # large files
 /data
+
+# models
+models
+mlflow.db
+mlruns

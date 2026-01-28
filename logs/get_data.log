@@ -95,3 +95,43 @@
 2026-01-16 12:51:56,652 - __main__ - INFO - Extracted: test.csv.zip
 2026-01-16 12:51:57,031 - __main__ - INFO - Extracted: train.csv.zip
 2026-01-16 12:51:57,031 - __main__ - INFO - downloading process completed successfully
+2026-01-17 19:17:53,689 - __main__ - INFO - Kaggle API authenticated
+2026-01-17 19:17:53,690 - __main__ - INFO - Created directory: data
+2026-01-17 19:17:53,690 - __main__ - INFO - Downloading data to data ...
+2026-01-17 19:19:15,198 - __main__ - INFO - Download complete
+2026-01-17 19:19:15,198 - __main__ - INFO - Unzipping files ...
+2026-01-17 19:19:17,503 - __main__ - INFO - Extracted: quora-question-pairs.zip
+2026-01-17 19:19:17,504 - __main__ - INFO - Renamed initial test.csv to final.csv
+2026-01-17 19:19:17,504 - __main__ - INFO - Extracting the datasets ...
+2026-01-17 19:19:19,872 - __main__ - INFO - Extracted: quora-question-pairs.zip
+2026-01-17 19:19:19,945 - __main__ - INFO - Extracted: sample_submission.csv.zip
+2026-01-17 19:19:22,752 - __main__ - INFO - Extracted: test.csv.zip
+2026-01-17 19:19:23,098 - __main__ - INFO - Extracted: train.csv.zip
+2026-01-17 19:19:23,098 - __main__ - INFO - downloading process completed successfully
+2026-01-28 21:44:02,456 - get_data - INFO - Kaggle API authenticated
+2026-01-28 21:44:02,458 - get_data - INFO - Created directory: data
+2026-01-28 21:44:02,458 - get_data - INFO - Downloading data to data ...
+2026-01-28 21:44:40,094 - get_data - INFO - Kaggle API authenticated
+2026-01-28 21:44:40,095 - get_data - INFO - Created directory: data
+2026-01-28 21:44:40,095 - get_data - INFO - Downloading data to data ...
+2026-01-28 21:45:54,978 - get_data - INFO - Download complete
+2026-01-28 21:45:54,978 - get_data - INFO - Unzipping files ...
+2026-01-28 21:45:57,190 - get_data - INFO - Extracted: quora-question-pairs.zip
+2026-01-28 21:45:57,191 - get_data - INFO - Renamed initial test.csv to final.csv
+2026-01-28 21:45:57,191 - get_data - INFO - Extracting the datasets ...
+2026-01-28 21:45:59,416 - get_data - INFO - Extracted: quora-question-pairs.zip
+2026-01-28 21:45:59,485 - get_data - INFO - Extracted: sample_submission.csv.zip
+2026-01-28 21:46:02,138 - get_data - INFO - Extracted: test.csv.zip
+2026-01-28 21:46:02,473 - get_data - INFO - Extracted: train.csv.zip
+2026-01-28 22:18:11,490 - get_data - INFO - Kaggle API authenticated
+2026-01-28 22:18:11,491 - get_data - INFO - Created directory: data
+2026-01-28 22:18:11,491 - get_data - INFO - Downloading data to data ...
+2026-01-28 22:19:20,739 - get_data - INFO - Download complete
+2026-01-28 22:19:20,740 - get_data - INFO - Unzipping files ...
+2026-01-28 22:19:22,998 - get_data - INFO - Extracted: quora-question-pairs.zip
+2026-01-28 22:19:22,999 - get_data - INFO - Renamed initial test.csv to final.csv
+2026-01-28 22:19:22,999 - get_data - INFO - Extracting the datasets ...
+2026-01-28 22:19:25,287 - get_data - INFO - Extracted: quora-question-pairs.zip
+2026-01-28 22:19:25,358 - get_data - INFO - Extracted: sample_submission.csv.zip
+2026-01-28 22:19:28,069 - get_data - INFO - Extracted: test.csv.zip
+2026-01-28 22:19:28,417 - get_data - INFO - Extracted: train.csv.zip

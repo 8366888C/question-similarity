@@ -8,7 +8,7 @@ import inflect
 import numpy as np
 
 # setup logger
-log = setup_logger(__name__, "preprocessor.log")
+log = setup_logger(__name__, "preprocess.log")
 
 p = inflect.engine()
 
@@ -66,4 +66,5 @@ if __name__ == "__main__":
     processor.save_data()
 
     # preprocessing complete
-    log.info("processing pipeline completed successfully")
+    log.info("PREPROCESSING PIPELINE COMPLETED SUCCESSFULLY")
+    log.info("")

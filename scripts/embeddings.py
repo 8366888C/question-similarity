@@ -7,7 +7,7 @@ from sentence_transformers import SentenceTransformer, SimilarityFunction
 import torch
 
 # setup logger
-log = setup_logger(__name__, "generate_embeddings.log")
+log = setup_logger(__name__, "embeddings.log")
 
 
 class GenerateEmbeddings:
@@ -15,10 +15,11 @@ class GenerateEmbeddings:
         self.base_dir = Path(__file__).resolve().parents[1]
         self.data_dir = self.base_dir / "data"
         self.data_path = self.data_dir / "data.csv"
-        self.model_path = self.base_dir / "model"
-        self.embeddings_path = self.data_dir / "embeddings.pkl"
+        self.models_dir = self.base_dir / "app" / "models"
+        self.sbert_path = self.models_dir / "sbert"
+        self.embeddings_path = self.models_dir / "embeddings.pkl"
         self.df = None
-        self.model = None
+        self.sbert = None
         if self.embeddings_path.exists():
             self.embeddings = joblib.load(self.embeddings_path)
             log.info("Embeddings loaded")
@@ -33,14 +34,14 @@ class GenerateEmbeddings:
         except Exception as e:
             log.error(f"Failed to load data: {e}")
 
-    def model_init(self):
-        self.model = SentenceTransformer(
+    def sbert_init(self):
+        self.sbert = SentenceTransformer(
             "all-miniLM-L6-v2", similarity_fn_name=SimilarityFunction.DOT_PRODUCT
         )
-        self.model.save(self.model_path)
-        log.info(f"Model initialized and saved to {self.model_path.name}")
+        self.sbert.save(self.sbert_path)
+        log.info(f"Model initialized and saved to {self.sbert_path.name}")
 
-    def model_encode(self):
+    def sbert_encode(self):
         if self.embeddings is None:
             # getting all the unique questions only
             questions = (
@@ -52,7 +53,7 @@ class GenerateEmbeddings:
             # generating embeddings
             log.info("Encoding unique questions ...")
             device = "cuda" if torch.cuda.is_available() else "cpu"
-            raw_vecs = self.model.encode(
+            raw_vecs = self.sbert.encode(
                 questions, device=device, show_progress_bar=True, batch_size=32
             )
             # creating cache
@@ -76,7 +77,7 @@ class GenerateEmbeddings:
         )
         log.info("Mapping question 2 embeddings")
         # generating similarity scores
-        similarity_scores = self.model.similarity_pairwise(q1_embeddings, q2_embeddings)
+        similarity_scores = self.sbert.similarity_pairwise(q1_embeddings, q2_embeddings)
         self.df["sim_score"] = similarity_scores
         log.info("Generated similarity scores")
 
@@ -90,11 +91,12 @@ if __name__ == "__main__":
 
     # generate embeddings pipeline
     generator.load_data()
-    generator.model_init()
-    generator.model_encode()
+    generator.sbert_init()
+    generator.sbert_encode()
     generator.save_cache()
     generator.similarity_scores()
     generator.save_data()
 
     # generate embeddings complete
-    log.info("generate embeddings pipeline completed succesfully")
+    log.info("GENERATE EMBEDDINGS PIPELINE COMPLETED SUCCESSFULLY")
+    log.info("")

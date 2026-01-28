@@ -106,3 +106,55 @@
 2026-01-16 13:02:49,329 - __main__ - INFO - Removed features: q1_len, q2_len, common_words, unique_words, q1_freq, q2_freq
 2026-01-16 13:02:52,538 - __main__ - INFO - Engineered data saved to data.csv
 2026-01-16 13:02:52,538 - __main__ - INFO - feature engineering pipeline completed succesfully
+2026-01-17 19:21:02,022 - __main__ - INFO - Cleaned data loaded from data.csv
+2026-01-17 19:21:02,457 - __main__ - INFO - Added feature q1_len
+2026-01-17 19:21:02,899 - __main__ - INFO - Added feature q2_len
+2026-01-17 19:21:09,193 - __main__ - INFO - Added feature common_words
+2026-01-17 19:21:16,007 - __main__ - INFO - Added feature unique_words
+2026-01-17 19:21:16,019 - __main__ - INFO - Added feature word_share
+2026-01-17 19:21:26,608 - __main__ - INFO - Added feature q1_freq
+2026-01-17 19:21:26,621 - __main__ - INFO - Added feature q2_freq
+2026-01-17 19:21:26,635 - __main__ - INFO - Removed outliers from q1_len
+2026-01-17 19:21:26,645 - __main__ - INFO - Removed outliers from q2_len
+2026-01-17 19:21:26,651 - __main__ - INFO - Performed logarithmic transform on q1_freq
+2026-01-17 19:21:26,657 - __main__ - INFO - Performed logarithmic transform on q2_freq
+2026-01-17 19:21:26,661 - __main__ - INFO - Added feature len_diff
+2026-01-17 19:21:26,663 - __main__ - INFO - Added feature freq_sum
+2026-01-17 19:21:26,667 - __main__ - INFO - Added feature freq_diff
+2026-01-17 19:21:26,706 - __main__ - INFO - Removed features: q1_len, q2_len, common_words, unique_words, q1_freq, q2_freq
+2026-01-17 19:21:30,290 - __main__ - INFO - Engineered data saved to data.csv
+2026-01-17 19:21:30,290 - __main__ - INFO - feature engineering pipeline completed succesfully
+2026-01-28 21:46:56,306 - feature_engineer - INFO - Cleaned data loaded from data.csv
+2026-01-28 21:46:56,719 - feature_engineer - INFO - Added feature q1_len
+2026-01-28 21:46:57,109 - feature_engineer - INFO - Added feature q2_len
+2026-01-28 21:47:03,090 - feature_engineer - INFO - Added feature common_words
+2026-01-28 21:47:09,352 - feature_engineer - INFO - Added feature unique_words
+2026-01-28 21:47:09,361 - feature_engineer - INFO - Added feature word_share
+2026-01-28 21:47:19,503 - feature_engineer - INFO - Added feature q1_freq
+2026-01-28 21:47:19,516 - feature_engineer - INFO - Added feature q2_freq
+2026-01-28 21:47:19,529 - feature_engineer - INFO - Removed outliers from q1_len
+2026-01-28 21:47:19,538 - feature_engineer - INFO - Removed outliers from q2_len
+2026-01-28 21:47:19,545 - feature_engineer - INFO - Performed logarithmic transform on q1_freq
+2026-01-28 21:47:19,554 - feature_engineer - INFO - Performed logarithmic transform on q2_freq
+2026-01-28 21:47:19,558 - feature_engineer - INFO - Added feature len_diff
+2026-01-28 21:47:19,560 - feature_engineer - INFO - Added feature freq_sum
+2026-01-28 21:47:19,564 - feature_engineer - INFO - Added feature freq_diff
+2026-01-28 21:47:19,602 - feature_engineer - INFO - Removed features: q1_len, q2_len, common_words, unique_words, q1_freq, q2_freq
+2026-01-28 21:47:22,816 - feature_engineer - INFO - Engineered data saved to data.csv
+2026-01-28 22:20:24,018 - feature_engineer - INFO - Cleaned data loaded from data.csv
+2026-01-28 22:20:24,450 - feature_engineer - INFO - Added feature q1_len
+2026-01-28 22:20:24,858 - feature_engineer - INFO - Added feature q2_len
+2026-01-28 22:20:30,980 - feature_engineer - INFO - Added feature common_words
+2026-01-28 22:20:37,422 - feature_engineer - INFO - Added feature unique_words
+2026-01-28 22:20:37,432 - feature_engineer - INFO - Added feature word_share
+2026-01-28 22:20:47,716 - feature_engineer - INFO - Added feature q1_freq
+2026-01-28 22:20:47,729 - feature_engineer - INFO - Added feature q2_freq
+2026-01-28 22:20:47,743 - feature_engineer - INFO - Removed outliers from q1_len
+2026-01-28 22:20:47,752 - feature_engineer - INFO - Removed outliers from q2_len
+2026-01-28 22:20:47,759 - feature_engineer - INFO - Performed logarithmic transform on q1_freq
+2026-01-28 22:20:47,765 - feature_engineer - INFO - Performed logarithmic transform on q2_freq
+2026-01-28 22:20:47,769 - feature_engineer - INFO - Added feature len_diff
+2026-01-28 22:20:47,772 - feature_engineer - INFO - Added feature freq_sum
+2026-01-28 22:20:47,776 - feature_engineer - INFO - Added feature freq_diff
+2026-01-28 22:20:47,817 - feature_engineer - INFO - Removed features: q1_len, q2_len, common_words, unique_words, q1_freq, q2_freq
+2026-01-28 22:20:51,152 - feature_engineer - INFO - Engineered data saved to data.csv

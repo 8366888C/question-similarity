@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # setup logger
-log = setup_logger(__name__, "feature_engineering.log")
+log = setup_logger(__name__, "feature_engineer.log")
 
 
 class FeatureEngineering:
@@ -132,4 +132,5 @@ if __name__ == "__main__":
     engineer.save_data()
 
     # feature engineering complete
-    log.info("feature engineering pipeline completed succesfully")
+    log.info("FEATURE ENGINEERING PIPELINE COMPLETED SUCCESSFULLY")
+    log.info("")
